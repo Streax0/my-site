@@ -1,187 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Minecraft Server</title>
-  <style>
-    body {
-      background-image: url("https://cdn.discordapp.com/attachments/809317204176273419/1071161809739972709/m7FD1P9S_4x.png");
-      background-size: cover;
-      overflow: scroll;
-    }
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .header {
-      text-align: center;
-      color: aqua;
-      
-    }
-    @keyframes example {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-.header h1 {
-  animation: example 2s ease-in-out;
-}
-
-    .server-info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-    .server-ip {
-      font-size: 24px;
-      color: gold;
-      animation: neon 1s ease-in-out infinite alternate;
-    }
-    @keyframes neon {
-      to {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px gold;
-      }
-    }
-    
-    .server-images {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
-    .server-image {
-      width: 300px;
-      height: 200px;
-      margin: 20px;
-      border-radius: 15%;
-      animation: slideIn 1s ease-in-out;
-    }
-    @keyframes slideIn {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
-      }
-    }
-    .buy-access {
-      margin-top: 20px;
-    }
-    .buy-button {
-      width: 300px;
-      height: 50px;
-      margin-top: 20px;
-      text-align: center;
-      line-height: 50px;
-      border: 1px solid #333;
-      border-radius: 10px;
-      cursor: pointer;
-      background-color: red;
-      color: white;
-      animation: pulse 1s infinite;
-    }
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    .made-by {
-      position: absolute;
-      bottom: 45px;
-      left: 10px;
-      color: rgb(239, 243, 7);
-    }
-    @keyframes slide {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-      100% {
-        transform: scale(1);
-    }
-    }
-    .event {
-
-
-      margin-top: 1px;
-      text-align: center;
-      line-height: 30px;
-
-      width: 200px;
-      height: 0px;
-      color:#fff;
-    }
-
-    .title {
-      font-size: 24px;
-      color: rgb(61, 26, 186);
-      font-size: 36px;
-        font-weight: bold;
-        text-align: center;
-        animation: animateText 3s ease-in-out infinite;
-      }
-      @keyframes animateText {
-        10% {
-          transform: translateY(1%);
-        }
-        40% {
-          transform: translateY(40%);
-    }
-  }
-
-
-  
-  </style>
+	<title>Gwiazdkowe pozdrowienia</title>
+	<meta charset="UTF-8">
+	<script>
+		function Gwiazdki(n) {
+			var gwiazdki = "*".repeat(n);  // generujemy n gwiazdek
+			document.getElementById("gwiazdki1").innerHTML = gwiazdki;  // wstawiamy gwiazdki do elementu o id "gwiazdki1"
+			document.getElementById("wesolychSwiat").innerHTML = "Wesołych Świąt!";  // wstawiamy napis "Wesołych Świąt!" do elementu o id "wesolychSwiat"
+			document.getElementById("gwiazdki2").innerHTML = gwiazdki;  // wstawiamy gwiazdki do elementu o id "gwiazdki2"
+			document.getElementById("wszystkiegoNajlepszego").innerHTML = "Wszystkiego Najlepszego!";  // wstawiamy napis "Wszystkiego Najlepszego!" do elementu o id "wszystkiegoNajlepszego"
+			document.getElementById("gwiazdki3").innerHTML = gwiazdki;  // wstawiamy gwiazdki do elementu o id "gwiazdki3"
+		}
+	</script>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="title">
-        Server Szablocraft 
-        </div>
-    </div>
-    <div class="server-info">
-      <div class="server-ip">
-        s387069.mine.game:26274
-      </div>
-      <div class="server-images">
-        <img class="server-image" src="https://cdn.discordapp.com/attachments/986328003925663804/1070060609128902778/image.png">
-        <img class="server-image" src="https://th.bing.com/th/id/OIP.fKMvgKszHNwmP9OKRlFCCwHaEM?w=321&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7">
-        <img class="server-image" src="https://cdn.discordapp.com/attachments/986328003925663804/1070058980296097852/image.png">
-      </div>
-    </div>
-    <div class="buy-access">
-      <a href="https://discord.gg/HrSd9MqM5N">
-        <div class="buy-button">
-          Kup dostep na discordzie
-        </div>
-      </a>
-    </div>
-  </div
-</div>
-<div class="made-by">
-  Made by Aixen
-  </div>
-<div class="event">
-  <div class="event">    
-    <h1>NEWS</h1>
-    <p>Nether 2.02.2023, 20:00                             </p>
-    <p>Reload - 10:00 5.02.2023                             </p>
-    <p>Wgrany zostal anti-cheat - 17:00 - 4.02</p>
-
-  </div>
-</div>
-
-  
+	<h1>Gwiazdkowe pozdrowienia</h1>
+	<p>
+		<input type="number" id="iloscGwiazdek" min="1" max="100" value="15">  <!-- pole tekstowe do wprowadzenia liczby gwiazdek -->
+		<button onclick="Gwiazdki(document.getElementById('iloscGwiazdek').value)">Wyświetl gwiazdki i napisy</button>  <!-- przycisk wywołujący funkcję Gwiazdki() -->
+	</p>
+	<p id="gwiazdki1"></p>  <!-- pusty element, do którego zostaną wstawione gwiazdki -->
+	<p id="wesolychSwiat"></p>  <!-- pusty element, do którego zostanie wstawiony napis "Wesołych Świąt!" -->
+	<p id="gwiazdki2"></p>  <!-- pusty element, do którego zostaną wstawione gwiazdki -->
+	<p id="wszystkiegoNajlepszego"></p>  <!-- pusty element, do którego zostanie wstawiony napis "Wszystkiego Najlepszego!" -->
+	<p id="gwiazdki3"></p>  <!-- pusty element, do którego zostaną wstawione gwiazdki -->
+</body>
+</html>
